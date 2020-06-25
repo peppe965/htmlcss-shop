@@ -22,11 +22,12 @@
 .heart{
   display: none;
   font-size: 25px;
-  position: relative;
-  bottom:42px;
+  position: absolute;
+  bottom:20px;
+  left:50%;
 }
 
-.heart:hover{
+.item:hover .heart{
   color:red;
   display: block;
 }
@@ -49,7 +50,3 @@
 .little{
   background: red;
 }
-
-/* .sconto:nth-of-type(2n+1){
-  background: red;
-} */
