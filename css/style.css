@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: auto;
+  margin-top: 10vh;
+  background: lightgreen;
+  width: 80vw;
+  text-align: center;
+}
+
+.item{
+  display: inline-block;
+  background: yellow;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.heart{
+  /* position: absolute; */
+  font-size: 25px;
+  /* display: none; */
+}
+
+.heart:hover{
+  color:red;
+  display: block;
+}
+
+.sconto{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: green;
+  border-radius: 50%;
+  width:90px;
+  height: 45px;
+  padding-top: 9px;
+  font-size: 25px;
+}
