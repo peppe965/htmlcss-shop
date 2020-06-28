@@ -4,19 +4,19 @@
   box-sizing: border-box;
 }
 
-.container{
+.row{
   margin: auto;
   margin-top: 10vh;
   background: lightgreen;
-  width: 80vw;
+  width: 60%;
   text-align: center;
 }
 
 .item{
   display: inline-block;
-  background: yellow;
   position: relative;
-  height: 372px;
+  height: auto;
+  width: auto;
 }
 
 .heart{
