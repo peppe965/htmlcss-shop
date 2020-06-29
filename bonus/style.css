@@ -18,7 +18,7 @@ nav a{
   text-decoration: none;
 }
 
-.logo{
+#logo{
   height: 50px;
   vertical-align: middle;
 }
@@ -33,10 +33,27 @@ nav a{
   padding: 0 20px;
   font-size: 20px;
   line-height: 80px;
+  font-style: verdana;
+}
+li a{
+  color: blue;
 }
 
+#submenu{
+  float: left;
+}
 
+#search_box{
+  width: 40vw;
+}
 
+/* .fa-search{
+  background: yellow;
+  display: inline-block;
+  height: 30px;
+  vertical-align: middle;
+
+} */
 
 
 
