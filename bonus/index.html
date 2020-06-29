@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <title>Joseph SHOP</title>
+    <!-- collegamento per icone navbar, non rimuovere -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   </head>
   <body>
@@ -12,16 +13,20 @@
       <nav>
         <ul class="menu">
           <li id="submenu"><a href="#home"><i class="fas fa-bars"></i></li>
-          <li>
-          <a href="#home"><img id="logo" src="../img/joseph.png" alt="logo">
-          </li>
-          <li>
-            <input type="search" name="search_box" value="Cosa vuoi cercare?" id="search_box">
-            <i class="fas fa-search"></i>
-          </li>
-          <li><a href="#">Profilo</a></li>
-          <li><a href="#">Ordini</a></li>
-          <li><a href="#">Carrello</a></li>
+          <div id="center">
+            <li>
+            <a href="#home"><img id="logo" src="../img/joseph.png" alt="logo">
+            </li>
+            <li>
+              <input type="search" name="search_box" value="Cosa vuoi cercare?" id="search_box">
+              <button><i class="fas fa-search"></i></button>
+            </li>
+          </div>
+          <div id="right">
+            <li><a href="#">Profilo</a></li>
+            <li><a href="#">Ordini</a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          </div>
         </ul>
 
 
